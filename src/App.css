@@ -1,0 +1,92 @@
+
+
+
+#socico{
+  margin-left: 10px;
+  font-size: 20px;
+
+  
+}
+
+#socico:hover{
+  color: white;
+  
+}
+
+#connect{
+  margin-left: 20px;
+  border: 0.3px solid white;
+  padding: 7px;
+  font-weight:600;
+}
+
+#connect:hover{
+
+  background-color: white;
+  color: black;
+}
+
+
+.profile{
+  display: block;
+
+  animation:slide-top 2s ease-in-out infinite alternate forwards
+}
+
+
+
+
+@keyframes slide-top{
+  0%{transform:translateY(50px)}
+
+100%{transform:translateY(-50px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
+}
+
+#skills{
+  height: 100vh;
+}
+
+.Card.Title{
+  text-align: center;
+}
+
+ img{
+
+  border-radius: 10px;
+
+}
+
+.profile{
+  width:250px;
+  height:250px;
+  border-radius: 57% 43% 71% 29% / 17% 82% 18% 83%;
+  background-color: yellow;
+}
+
+#contact{
+  width: 90%;
+  animation: scale-up-center 0.6s  ease-in-out both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    
+            transform: scale(0.5);
+  }
+  100% {
+  
+            transform: scale(1);
+  }
+}
+
+
+.firstsec{
+  padding-top:15px ;
+  height: 100vh;
+  background-color: #27374D;
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
