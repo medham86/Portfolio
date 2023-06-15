@@ -2,18 +2,11 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {images} from './data'
+
 const FirstSec = () => {
 
-    function importAll(r) {
-        let images = {};
-        r.keys().map((item) => { images[item.replace('./', '')] = r(item); });
-        return images;
-      }
-      
-       const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
-      
-   
-      
+  
     return (
 
         <Container fluid  >

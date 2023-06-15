@@ -35,21 +35,26 @@ function Landing(){
 return (
     
 
-<Stack  direction="horizontal" gap={4}  style={{height:'90vh',backgroundColor:'#27374D',color:'white'}}>
-      <div className="mx-4 "  ><span style={style2} >Welcome All in my Portfolio</span>  
-                <h2>  Hi,I'm Medhat <br /> Hamada </h2>
-                <h2> 
-                    <span style={{color:"white"}}>{text} </span>
-                    <Cursor/>
-                </h2>
-                <span>Hello everyone , i have 1 year experience in web development.</span></div>
-      <div className=" m-auto" ><img className="profile" width={300} height={300}  src={images['my.jpeg']} /></div>
-      
-      
-    </Stack>
- 
+<Container   style={{height:'100vh'}}>
+    <Row className="land ">
+        <Col lg={6}>
+            <div><span style={style2} >Welcome All in my Portfolio</span>  
+                    <h2>  Hi,I'm Medhat <br /> Hamada </h2>
+                    <h2> 
+                        <span style={{color:"white"}}>{text} </span>
+                        <Cursor/>
+                    </h2>
+                    <span>Hello everyone , i have 1 year experience in web development.</span>
+            </div>
+        </Col>
+        <Col >
+            <div ><img className="profile" width={300} height={300}  src={images['my.jpeg']} /></div>
+        </Col>
+    </Row>
+     
+     
+    </Container>
 
-    // </Container>
            
 )        
 }     

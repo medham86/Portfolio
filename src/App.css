@@ -37,9 +37,9 @@
 
 
 @keyframes slide-top{
-  0%{transform:translateY(50px)}
+  0%{transform:translateY(25px)}
 
-100%{transform:translateY(-50px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
+100%{transform:translateY(-25px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
 }
 
 #skills{
@@ -89,4 +89,14 @@
   align-items: center;
   cursor: pointer;
   
+}
+
+.land{
+  padding-top:15px ;
+  height: 100vh;
+  background-color: #27374D;
+  gap: 20px;
+  justify-items:center;
+  align-items:center;
+  color: white;
 }

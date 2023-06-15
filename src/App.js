@@ -23,7 +23,7 @@ function App() {
         
         <Routes>
 
-            <Route  path="*"        element={  <h2>Page Not Found</h2> } />
+            
            
             <Route  path="/home"    element={<Landing/>} />
 
