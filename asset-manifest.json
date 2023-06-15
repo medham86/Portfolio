@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fb150889.css",
-    "main.js": "/Portfolio/static/js/main.7f613f35.js",
+    "main.css": "/Portfolio/static/css/main.ee285ab5.css",
+    "main.js": "/Portfolio/static/js/main.623e34a9.js",
     "static/js/787.7cd949fd.chunk.js": "/Portfolio/static/js/787.7cd949fd.chunk.js",
+    "static/media/7.jpg": "/Portfolio/static/media/7.d75a2b65a2b8dde0ca9e.jpg",
+    "static/media/5.jpg": "/Portfolio/static/media/5.6036bb444c82da9bcadf.jpg",
+    "static/media/4.jpg": "/Portfolio/static/media/4.716a529ea9155fbe1bca.jpg",
+    "static/media/8.jpg": "/Portfolio/static/media/8.34c6eb3d30afa1ca00b4.jpg",
+    "static/media/2.jpg": "/Portfolio/static/media/2.684423aa33d215f05500.jpg",
+    "static/media/6.jpg": "/Portfolio/static/media/6.55f1ae1d8ff6ddba876f.jpg",
+    "static/media/contact.svg": "/Portfolio/static/media/contact.44873be3351380110aa2.svg",
+    "static/media/3.jpg": "/Portfolio/static/media/3.5948003efdef52fc6bb1.jpg",
+    "static/media/my.jpeg": "/Portfolio/static/media/my.478b00647c62a1ccad37.jpeg",
     "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
-    "main.fb150889.css.map": "/Portfolio/static/css/main.fb150889.css.map",
-    "main.7f613f35.js.map": "/Portfolio/static/js/main.7f613f35.js.map",
+    "main.ee285ab5.css.map": "/Portfolio/static/css/main.ee285ab5.css.map",
+    "main.623e34a9.js.map": "/Portfolio/static/js/main.623e34a9.js.map",
     "787.7cd949fd.chunk.js.map": "/Portfolio/static/js/787.7cd949fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb150889.css",
-    "static/js/main.7f613f35.js"
+    "static/css/main.ee285ab5.css",
+    "static/js/main.623e34a9.js"
   ]
 }
