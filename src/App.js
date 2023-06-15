@@ -3,9 +3,7 @@ import NavBar from './Components/NavBar';
 import './App.css';
 import React from 'react';
 import Landing from './Components/landing';   
-
 import Skills from './Components/Skills';
-
 import FirstSec from "./Components/FirstSec";
 import SecondSec from "./Components/SecondSec";
 import ThirdSec from "./Components/ThirdSec";
@@ -19,8 +17,8 @@ function App() {
      <NavBar />
      <Landing />
      <Skills />
-     
      <Router>
+      
         <Projects />
         
         <Routes>

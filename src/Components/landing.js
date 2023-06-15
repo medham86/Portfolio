@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import {useTypewriter , Cursor} from 'react-simple-typewriter'
 import { keyFor } from "react-social-icons";
 import Stack from 'react-bootstrap/Stack';
+import { images } from "./data";
 
 function Landing(){
 
@@ -42,7 +43,7 @@ return (
                     <Cursor/>
                 </h2>
                 <span>Hello everyone , i have 1 year experience in web development.</span></div>
-      <div className=" m-auto" ><img className="profile" width={300} height={300}  src="my1.jpeg" /></div>
+      <div className=" m-auto" ><img className="profile" width={300} height={300}  src={images['my.jpeg']} /></div>
       
       
     </Stack>

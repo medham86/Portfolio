@@ -2,15 +2,18 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import { images } from "./data";
 
 const SecondSec = () => {
+
+     
+       
     return (
         <div  style={{height:'90vh',backgroundColor:'#27374D',color:'white'}}>
             <Container>
             <Row  className="d-flex align-items-center  py-4" >
                 <Col className="text-center ">
-                 <img id="contact"  src="contact.svg" />
+                 <img id="contact"  src={images['contact.svg']} />
                 </Col>
                 <Col>
                 <h2 className="text-start"> Get In Touch</h2>
