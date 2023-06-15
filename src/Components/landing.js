@@ -35,7 +35,7 @@ function Landing(){
 return (
     
 
-<Container   style={{height:'100vh'}}>
+<Container fluid    style={{height:'100vh'}}>
     <Row className="land ">
         <Col lg={6}>
             <div><span style={style2} >Welcome All in my Portfolio</span>  
