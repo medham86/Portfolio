@@ -19,7 +19,7 @@ function Landing(){
 
     const style2 ={
 
-        backgroundColor:'#27374D',
+        
         fontSize:'25px',
         color: "white",
         padding: "5px",
@@ -33,27 +33,26 @@ function Landing(){
 }
 
 return (
-    
 
-<Container fluid    style={{height:'100vh'}}>
-    <Row className="land ">
-        <Col lg={6}>
-            <div><span style={style2} >Welcome All in my Portfolio</span>  
+        <section className="banner" id="home">
+        <Container>
+        <Row className="aligh-items-center ">
+            <Col xs={12} md={6} xl={7}>
+            <span className=" wrap"><span style={style2} >Welcome All in my Portfolio</span>  
                     <h2>  Hi,I'm Medhat <br /> Hamada </h2>
                     <h2> 
                         <span style={{color:"white"}}>{text} </span>
                         <Cursor/>
                     </h2>
                     <span>Hello everyone , i have 1 year experience in web development.</span>
-            </div>
-        </Col>
-        <Col >
-            <div ><img className="profile" width={300} height={300}  src={images['my.jpeg']} /></div>
-        </Col>
-    </Row>
-     
-     
-    </Container>
+            </span>
+            </Col>
+            <Col xs={12} md={6} xl={5}>
+            <span className="col"><img className="profile " width={300} height={300}  src={images['my.jpeg']} /></span>
+            </Col>
+        </Row>
+        </Container>
+        </section>
 
            
 )        

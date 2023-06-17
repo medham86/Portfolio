@@ -10,14 +10,14 @@ const ThirdSec = () => {
     
 
     return (
-        <div  style={{height:'90vh',backgroundColor:'#27374D',color:'white',textAlign:'center'}}>
+        <div  style={{minHeight:'90vh',textAlign:'center'}}>
             <p>Hello My name is Medhat Hamada , welcome </p>
             <Container>
             <Row  className="d-flex align-items-center  py-4" >
-                <Col className="text-center ">
+                <Col className="text-center " xs={12} md={6} xl={5}>
                      <img id="contact"  src={images['contact.svg']} />
                 </Col>
-                <Col>
+                <Col xs={12} md={6} xl={7}>
                 <h2 className="text-start"> Get In Touch</h2>
                 <Form >
                     

@@ -19,7 +19,7 @@ export default function Projects(){
     }
     return(
 
-        <div id="project"  style={{textAlign:'center',backgroundColor:'#27374D',color:'white'}}>
+        <div id="project"  style={{textAlign:'center'}}>
             <h1 className="p-3" >My Projects</h1>
             <p>My name is Medhat ,I live in Fayoum and this is my projects</p>
             <div>

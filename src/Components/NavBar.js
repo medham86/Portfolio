@@ -5,12 +5,12 @@ import { FaFacebookF ,FaLinkedinIn ,FaInstagram ,FaFacebook} from "react-icons/f
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-
+// bg="dark"  variant='dark'
 function NavBar() {
   return (
-    <div id='home'  className='container' style={{height:'10vh'}} >
-         <Navbar  bg="dark" fixed='top'  variant='dark' expand="lg">
-      <Container >
+    <div id='home'  className='container'  style={{minHeight:'10vh'}} >
+         <Navbar   fixed='top'  expand="lg" bg='dark' variant='dark'>
+      <Container fluid>
         <Navbar.Brand href="#">LOGO</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

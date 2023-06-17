@@ -1,3 +1,11 @@
+.App{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#27374D; 
+    color:white
+}
 
 
 
@@ -27,9 +35,16 @@
 }
 
 
-.profile{
-  display: block;
+.banner {
+  margin-top: 0;
+  padding: 100px 0 100px 0 !important;
 
+}
+
+
+.profile{
+  margin: 50px 50px 50px ;
+  
   animation:slide-top 2s ease-in-out infinite alternate forwards
 }
 
@@ -37,10 +52,27 @@
 
 
 @keyframes slide-top{
-  0%{transform:translateY(25px)}
+  0%{transform:translateY(-20px)}
 
-100%{transform:translateY(-25px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
+
+
+100%{transform: translateY(20px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
 }
+
+/* .banner img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+} */
 
 #skills{
   height: 100vh;
