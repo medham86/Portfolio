@@ -1,5 +1,4 @@
-.App{
-
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +6,33 @@
     color:white
 }
 
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family:  sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
 
 
 #socico{
@@ -43,8 +69,8 @@
 
 
 .profile{
-  margin: 50px 50px 50px ;
-  
+  margin: 70px 100px 50px ;
+ 
   animation:slide-top 2s ease-in-out infinite alternate forwards
 }
 
@@ -52,27 +78,14 @@
 
 
 @keyframes slide-top{
-  0%{transform:translateY(-20px)}
+  0%{transform:translateY(-40px)}
 
 
 
 100%{transform: translateY(20px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
 }
 
-/* .banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-} */
+
 
 #skills{
   height: 100vh;

@@ -37,7 +37,7 @@ return (
         <section className="banner" id="home">
         <Container>
         <Row className="aligh-items-center ">
-            <Col xs={12} md={6} xl={7}>
+            <Col sm={12} md={6} xl={7}>
             <span className=" wrap"><span style={style2} >Welcome All in my Portfolio</span>  
                     <h2>  Hi,I'm Medhat <br /> Hamada </h2>
                     <h2> 
@@ -47,7 +47,7 @@ return (
                     <span>Hello everyone , i have 1 year experience in web development.</span>
             </span>
             </Col>
-            <Col xs={12} md={6} xl={5}>
+            <Col sm={12} md={6} xl={5}>
             <span className="col"><img className="profile " width={300} height={300}  src={images['my.jpeg']} /></span>
             </Col>
         </Row>
