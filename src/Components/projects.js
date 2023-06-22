@@ -8,7 +8,7 @@ export default function Projects(){
     const style1 ={
             
             fontSize:'20px',
-            color: "white",
+            color: "black",
             marginTop:'20px',
             padding: "20px",
             fontFamily: "Arial",

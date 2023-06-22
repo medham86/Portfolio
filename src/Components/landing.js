@@ -21,7 +21,7 @@ function Landing(){
 
         
         fontSize:'25px',
-        color: "white",
+        color: "black",
         padding: "5px",
         fontFamily: "Arial",
         textDecoration:'none',
@@ -37,17 +37,17 @@ return (
         <section className="banner" id="home">
         <Container>
         <Row className="aligh-items-center ">
-            <Col sm={12} md={6} xl={7}>
+            <Col xs={12} md={6} xl={7}>
             <span className=" wrap"><span style={style2} >Welcome All in my Portfolio</span>  
                     <h2>  Hi,I'm Medhat <br /> Hamada </h2>
                     <h2> 
-                        <span style={{color:"white"}}>{text} </span>
+                        <span style={{color:"black"}}>{text} </span>
                         <Cursor/>
                     </h2>
                     <span>Hello everyone , i have 1 year experience in web development.</span>
             </span>
             </Col>
-            <Col sm={12} md={6} xl={5}>
+            <Col xs={12} md={6} xl={5}>
             <span className="col"><img className="profile " width={300} height={300}  src={images['my.jpeg']} /></span>
             </Col>
         </Row>
