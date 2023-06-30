@@ -21,7 +21,7 @@ function Landing(){
 
         
         fontSize:'25px',
-        color: "black",
+        color: "white",
         padding: "5px",
         fontFamily: "Arial",
         textDecoration:'none',
@@ -37,14 +37,15 @@ return (
         <section className="banner" id="home">
         <Container>
         <Row className="aligh-items-center ">
-            <Col xs={12} md={6} xl={7}>
-            <span className=" wrap"><span style={style2} >Welcome All in my Portfolio</span>  
+            <Col xs={12} md={6} xl={7} >
+            <span className=" wrap ">
+                    <span style={{padding:"5px",fontSize:"30px",background:"linear-gradient(to right, red , yellow)"}} >Welcome All in my Portfolio</span>  
                     <h2>  Hi,I'm Medhat <br /> Hamada </h2>
                     <h2> 
-                        <span style={{color:"black"}}>{text} </span>
+                        <span >{text} </span>
                         <Cursor/>
                     </h2>
-                    <span>Hello everyone , i have 1 year experience in web development.</span>
+                    <span style={{fontWeight:"bold"}}>Hello everyone , i have 1 year experience in web development.</span>
             </span>
             </Col>
             <Col xs={12} md={6} xl={5}>

@@ -13,10 +13,10 @@ export default function Skill(props){
 
   return(
     
-          <div className="skill text-center mt-4 z-10">
-                {/* <div style={{ width: 200, height: 300 }}> */}
+          <div className="skill text-center mt-4 z-10" style={{color:'white'}}>
+               
                    
-                    <CircleProgress percentage={`${percent}`} primaryColor={['#27374D','#ffc107']}   strokeWidth={8}  secondaryColor="#FFF4F4"   />
+                    <CircleProgress percentage={`${percent}`} primaryColor={['red','#ffc107']}   strokeWidth={8}  secondaryColor="#FFF4F4"   />
                     
                     <p style={{fontWeight:'bold',fontFamily:'sans-serif',fontSize:'20px'}}>{name}</p>
                 {/* </div>    */}

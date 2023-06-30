@@ -4,13 +4,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import { FaFacebookF ,FaLinkedinIn ,FaInstagram ,FaFacebook} from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { HashLink } from 'react-router-hash-link';
+import { Outlet ,Link} from 'react-router-dom';
+import { useRef } from 'react';
 
-// bg="dark"  variant='dark'
+
 function NavBar() {
+
   return (
     <div id='home'  className='container'  style={{minHeight:'10vh'}} >
-         <Navbar   fixed='top'  expand="lg" bg='dark' variant='dark'>
-      <Container fluid>
+         <Navbar style={{opacity:'0.7'}}    fixed='top'  expand="md"   variant='dark' bg='dark' >
+         
+      <Container >
         <Navbar.Brand href="#">LOGO</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -36,9 +41,20 @@ function NavBar() {
            
             
           </Nav>
+
+       
+
+         
           <Form className="d-flex ms-auto">
+
+          <Nav.Link href='/second'>
+
+            <Button >Let's connect</Button>
            
-             <Button  variant="outline-warning">Let's connect</Button>
+            </Nav.Link>
+
+           
+             
              
           </Form>
         </Navbar.Collapse>

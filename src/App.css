@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:black
+    color:white
 }
 
 
@@ -17,6 +17,10 @@ body {
   position: relative;
   color: #fff !important;
   font-family:  sans-serif !important;
+  background-image: url("./images/pexels-philippe-donn-1257860.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
  
 }
 
@@ -82,15 +86,12 @@ p, a, li, button, ul {
 
 
 
-
-
-
 @keyframes slide-top{
-  0%{transform:translateY(-40px)}
+  0%{transform:translateY(-80px)}
 
 
 
-100%{transform: translateY(20px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
+100%{transform: translateY(0px);border-radius: 79% 21% 3% 97% / 65% 85% 15% 35%}
 }
 
 

@@ -9,7 +9,7 @@ const FirstSec = () => {
   
     return (
 
-        <Container fluid  >
+        <Container fluid  id="first" >
 
                 <Row className=" firstsec text-center "  xs={12}>
                     

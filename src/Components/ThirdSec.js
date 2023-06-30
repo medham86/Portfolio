@@ -10,8 +10,8 @@ const ThirdSec = () => {
     
 
     return (
-        <div  style={{minHeight:'90vh',textAlign:'center'}}>
-            <p>Hello My name is Medhat Hamada , welcome </p>
+        <div id="third"  style={{minHeight:'90vh',textAlign:'center'}}>
+            <p style={{padding:'15px'}}>Hello My name is Medhat Hamada , welcome </p>
             <Container>
             <Row  className="d-flex align-items-center  py-4" >
                 <Col className="text-center " xs={12} md={6} xl={5}>

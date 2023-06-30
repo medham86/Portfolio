@@ -1,15 +1,16 @@
-import React from "react";
+import React  from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { images } from "./data";
 
+
+
 const SecondSec = () => {
 
-     
-       
+    
     return (
-        <div  style={{minHeight:'90vh'}}>
+        <div id="second"   style={{minHeight:'90vh'}}>
             <Container>
             <Row  className="d-flex align-items-center  py-4" >
                 <Col className="text-center" xs={12} md={6} xl={5}>
