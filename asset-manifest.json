@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ac68b7dc.css",
-    "main.js": "/Portfolio/static/js/main.1a4d7c05.js",
+    "main.css": "/Portfolio/static/css/main.28b5bc78.css",
+    "main.js": "/Portfolio/static/js/main.0f2a0947.js",
     "static/js/787.7cd949fd.chunk.js": "/Portfolio/static/js/787.7cd949fd.chunk.js",
     "static/media/pexels-philippe-donn-1257860.jpg": "/Portfolio/static/media/pexels-philippe-donn-1257860.8a2cc5f66e4894bc0144.jpg",
     "static/media/background.jpg": "/Portfolio/static/media/background.767388c036c8547ccd32.jpg",
@@ -21,12 +21,12 @@
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
-    "main.ac68b7dc.css.map": "/Portfolio/static/css/main.ac68b7dc.css.map",
-    "main.1a4d7c05.js.map": "/Portfolio/static/js/main.1a4d7c05.js.map",
+    "main.28b5bc78.css.map": "/Portfolio/static/css/main.28b5bc78.css.map",
+    "main.0f2a0947.js.map": "/Portfolio/static/js/main.0f2a0947.js.map",
     "787.7cd949fd.chunk.js.map": "/Portfolio/static/js/787.7cd949fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac68b7dc.css",
-    "static/js/main.1a4d7c05.js"
+    "static/css/main.28b5bc78.css",
+    "static/js/main.0f2a0947.js"
   ]
 }
