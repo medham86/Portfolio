@@ -5,6 +5,7 @@ import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import FirstSec from "./FirstSec";
 
 
 
@@ -35,6 +36,7 @@ export default function Projects(){
                  <HashLink className="Tab  tab "   style={style1} smooth to="first">First Section </HashLink>
                  <HashLink className="Tab  tab"  style={style1} smooth to="second" >Second Section </HashLink>
                  <HashLink className="Tab  tab "  style={style1}  smooth to="third">Third Section </HashLink>
+                 <FirstSec/>
                  </nav>
             </div>
                  

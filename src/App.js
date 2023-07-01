@@ -21,7 +21,7 @@ function App() {
      <Skills />
      <Router>
       
-        <Projects/>
+        <Projects   />
         
         
         <Routes>
@@ -34,7 +34,7 @@ function App() {
             
             <Route  path="first"    element = {[<FirstSec/>, < SecondSec />,]} />
             
-            <Route  path="/"    element = {[<FirstSec/>, < SecondSec />,]} />
+            
 
             <Route  path="second"   element = {< SecondSec />} />
 
