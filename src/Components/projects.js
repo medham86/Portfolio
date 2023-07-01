@@ -33,11 +33,13 @@ export default function Projects(){
             <p>My name is Medhat ,I live in Fayoum and this is my projects</p>
             <div>
                  <nav  className="  mx-auto Tabs m-3 "  >
-                 <HashLink className="Tab  tab "   style={style1} smooth to="first">First Section </HashLink>
+                 <HashLink className="Tab  tab " style={style1} smooth to="first">First Section </HashLink>
                  <HashLink className="Tab  tab"  style={style1} smooth to="second" >Second Section </HashLink>
                  <HashLink className="Tab  tab "  style={style1}  smooth to="third">Third Section </HashLink>
-                 <FirstSec/>
+                 
                  </nav>
+
+                 
             </div>
                  
 
