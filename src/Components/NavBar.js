@@ -3,17 +3,30 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaFacebookF ,FaLinkedinIn ,FaInstagram ,FaFacebook} from "react-icons/fa";
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import { HashLink } from 'react-router-hash-link';
-import { Outlet ,Link} from 'react-router-dom';
-import { useRef } from 'react';
+import { HashLink  } from 'react-router-hash-link';
+
+import React  from 'react';
+
+import { HashRouter  as Router} from 'react-router-dom';
+
+
 
 
 function NavBar() {
 
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
+    });
+  };
+
+
+
   return (
+    <Router>
     <div id='home'  className='container'  style={{minHeight:'10vh'}} >
-         <Navbar style={{opacity:'0.7'}}    fixed='top'  expand="md"   variant='dark' bg='dark' >
+         <Navbar style={{opacity:'0.7'}}    fixed='top'  expand="lg"   variant='dark' bg='dark'>
          
       <Container >
         <Navbar.Brand href="#">LOGO</Navbar.Brand>
@@ -35,69 +48,29 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-                 <Nav.Link  id='socico' href='https://linkedin.com/' target='_blank'> <FaLinkedinIn /> </Nav.Link>
+                <Nav.Link  id='socico' href='https://linkedin.com/' target='_blank'> <FaLinkedinIn /> </Nav.Link>
                 <Nav.Link  id='socico' href='https://facebook.com/' ><FaFacebookF /> </Nav.Link>
                 <Nav.Link  id='socico' href='https://instagram.com/' ><FaInstagram /></Nav.Link>
            
             
           </Nav>
+            <Nav>
 
+            <HashLink  to='second'>
+                <Button className='mx-3'  variant="outline-warning">Let’s Connect</Button>
+            </HashLink>
        
-
-         
-          <Form className="d-flex ms-auto">
-
-          <Nav.Link href='/second'>
-
-            <Button >Let's connect</Button>
-           
-            </Nav.Link>
-
-           
-             
-             
-          </Form>
+            </Nav>
+            
+            
         </Navbar.Collapse>
       </Container>
     </Navbar>
     </div>
-   
+    </Router>
   );
 }
 
 
-
-
-// function NavBar() {
-//     return (
-//       <div id='home' style={{height:'50vh'}}>
-//         <Navbar collapseOnSelect expand="lg" bg='dark' variant='dark' fixed='top' >
-//         <Container >
-//           <Navbar.Brand href="#home">LOGO</Navbar.Brand>
-//           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-//           <Navbar.Collapse id="responsive-navbar-nav">
-//             <Nav id='hsp' >
-//               <Nav.Link href="#home">Home</Nav.Link>
-//               <Nav.Link href="#skills">Skills</Nav.Link>
-//               <Nav.Link href="#projects">Projects</Nav.Link> 
-//             </Nav>
-//             <Nav>
-           
-//               <Nav.Link  id='socico' href='https://linkedin.com/' target='_blank'> <FaLinkedinIn /> </Nav.Link>
-//               <Nav.Link  id='socico' href='https://facebook.com/' ><FaFacebookF /> </Nav.Link>
-//               <Nav.Link  id='socico' href='https://instagram.com/' ><FaInstagram /></Nav.Link>
-              
-//             </Nav>
-//             <Nav>
-//                <Nav.Link id='connect' href='#connect'> Let's connect</Nav.Link>
-//             </Nav>
-//           </Navbar.Collapse>
-//         </Container>
-//       </Navbar>
-        
-          
-//       </div>
-//     );
-//   }
   
   export default NavBar;

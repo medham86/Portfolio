@@ -18,10 +18,9 @@ body {
   color: #fff !important;
   font-family:  sans-serif !important;
   background-image: url("./images/pexels-philippe-donn-1257860.jpg");
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   background-size: cover;
-  
- 
+  height: 1500px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,9 +71,7 @@ p, a, li, button, ul {
 
 
 @media (prefers-reduced-motion: no-preference) {
-  /* .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  } */
+
 
   .profile{
     margin: 70px 100px 50px ;
@@ -112,6 +109,7 @@ p, a, li, button, ul {
   width:250px;
   height:250px;
   border-radius: 57% 43% 71% 29% / 17% 82% 18% 83%;
+  box-shadow:  2px 2px 2px 1px rgba(0, 0, 0,0.8);
   
 }
 
@@ -145,9 +143,35 @@ p, a, li, button, ul {
 .land{
   padding-top:15px ;
   height: 100vh;
-
   gap: 20px;
   justify-items:center;
   align-items:center;
   color: white;
 }
+
+.footer{
+
+  height: 100vh;
+  margin-top: 100px;
+  position: relative;
+  
+}
+
+
+.contact{
+
+ 
+  height: 40vh;
+  background-color: #989414;
+  border-radius: 15px;
+ 
+  
+}
+
+
+
+
+
+
+
+

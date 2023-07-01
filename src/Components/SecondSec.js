@@ -7,8 +7,10 @@ import { images } from "./data";
 
 
 const SecondSec = () => {
-
     
+
+ 
+
     return (
         <div id="second"   style={{minHeight:'90vh'}}>
             <Container>
@@ -48,5 +50,7 @@ const SecondSec = () => {
         </div>
     )
 };
+
+
 
 export default SecondSec;

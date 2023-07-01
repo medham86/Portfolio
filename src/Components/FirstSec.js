@@ -11,7 +11,7 @@ const FirstSec = () => {
 
         <Container fluid  id="first" >
 
-                <Row className=" firstsec text-center "  xs={12}>
+                <Row className=" firstsec text-center my-sm-4"  xs={12}>
                     
                         <Col> <img width={300} height={200}  src={images['2.jpg']} /> </Col>
                         <Col> <img width={300} height={200}  src={images['3.jpg']} /> </Col>

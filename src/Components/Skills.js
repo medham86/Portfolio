@@ -15,12 +15,12 @@ export default function Skills(){
     ))
 
   return(
-    <div id="skills" className="container-fluid text-center"  style={{minHeight:'100vh'}} >
-     <div className="p-4" >
+    <div id="skills" className="container-fluid  "  style={{minHeight:'100vh'}} >
+     <div className="p-4 text-center" >
            <h1>Skills</h1>
            <p style={{fontSize:"20px"}} >This is my skills</p>
      </div>
-    <Carousel className="w-75 mx-auto ml-4"  responsive={responsive} >
+    <Carousel className="w-75 mx-auto "  responsive={responsive} >
       
       {skill}
     

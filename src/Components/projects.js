@@ -2,6 +2,11 @@ import React  from "react";
 import {Link  , Outlet}  from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import { HashLink } from "react-router-hash-link";
+import { BrowserRouter as Router } from "react-router-dom";
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
+
 
 export default function Projects(){
 
@@ -18,21 +23,25 @@ export default function Projects(){
             
        
     }
+   
     return(
+
 
         <div id="project"  style={{textAlign:'center'}}>
             <h1 className="p-3" >My Projects</h1>
             <p>My name is Medhat ,I live in Fayoum and this is my projects</p>
             <div>
-                 <nav  className="p-2 w-50 m-auto" style={{border:'1px solid white',borderRadius:'15px'}}>
-                 <HashLink  style={style1} smooth to="first">First Section </HashLink>
-                 <HashLink  style={style1} smooth to="second">Second Section </HashLink>
-                 <HashLink  style={style1}  smooth to="third">Third Section </HashLink>
+                 <nav  className="  mx-auto Tabs m-3 "  >
+                 <HashLink className="Tab  tab "   style={style1} smooth to="first">First Section </HashLink>
+                 <HashLink className="Tab  tab"  style={style1} smooth to="second" >Second Section </HashLink>
+                 <HashLink className="Tab  tab "  style={style1}  smooth to="third">Third Section </HashLink>
                  </nav>
             </div>
                  
 
                 <Outlet/>
         </div>
+
+       
     )
 }

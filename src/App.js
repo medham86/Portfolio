@@ -8,18 +8,21 @@ import FirstSec from "./Components/FirstSec";
 import SecondSec from "./Components/SecondSec";
 import ThirdSec from "./Components/ThirdSec";
 import Projects from "./Components/projects";
+import { Footer } from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="App my-sm-4">
      <NavBar  />
      <Landing />
      <Skills />
      <Router>
       
-        <Projects />
+        <Projects/>
+        
         
         <Routes>
 
@@ -29,15 +32,19 @@ function App() {
 
             <Route  path="/skills"  element={<Skills />} />
             
-            <Route  path="first"    element = {<FirstSec/>} />
+            <Route  path="first"    element = {[<FirstSec/>, < SecondSec />,]} />
+            
+            <Route  path="/"    element = {[<FirstSec/>, < SecondSec />,]} />
 
-            <Route  path="second"   element = {< SecondSec/>} />
+            <Route  path="second"   element = {< SecondSec />} />
 
             <Route  path="third"    element = {< ThirdSec/>} />
 
         </Routes>
 
     </Router>
+
+    <Footer/>
     
       </div>
   );
